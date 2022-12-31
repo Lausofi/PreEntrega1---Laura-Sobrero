@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import ComponenteContainer from './assets/components/ComponenteContainer/ComponenteContainer';
+import {useState} from 'react'
+import NavBar from './components/NavBar'
 
-function App() {
+function App(){
 
-
-  return (
-    <>
-      <ComponenteContainer />
-    </>
-  )
+    return (
+        <>
+            <NavBar/>
+        </>
+    )
 }
 
 export default App
